@@ -1,51 +1,14 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>欢迎来到我的小窝</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="http://api.5yzs.cn/api/zny" type="image/x-icon">
+    <title>简单网页</title>
 </head>
 
-<body bgcolor="#fff" onload="newtext()">
-    <strong>
-        <marquee behavior="" direction="">欢迎来到我的小窝</marquee>
-    </strong>
-    <section>
-        <div>
-            <img src="http://q.qlogo.cn/headimg_dl?dst_uin=你的QQ&spec=640&img_type=jpg" alt="">
-            <h1>桑帛</h1>
-            <h3>今年16岁</h3>
-            <p>又是穷困潦倒的一年</p>
-            <br>
-            <a href="#!">点下康康</a>
-        </div>
-        <div>
-            <h2>旗下站点</h2>
-            <a href="#!" target="_blank" rel="noopener noreferrer">桑帛云</a>
-            <a href="#!" target="_blank" rel="noopener noreferrer">桑帛云</a>
-            <a href="#!" target="_blank" rel="noopener noreferrer">桑帛云</a>
-            <a href="#!" target="_blank" rel="noopener noreferrer">桑帛云</a>
-            <a href="#!" target="_blank" rel="noopener noreferrer">桑帛云</a>
-        </div>
-    </section>
-    <footer>
-        <p><a href="#!" target="_blank" rel="noopener noreferrer">Copyright ©2021-2022 桑帛 版权所有</a></p>
-        <p><a href="#!" target="_blank" rel="noopener noreferrer">备案号:没有</a></p>
-    </footer>
-    <script>
-        var text = document.title
-        var timerID
-        function newtext() {
-            clearTimeout(timerID)
-            document.title = text.substring(1, text.length) + text.substring(0, 1)
-            text = document.title.substring(0, text.length)
-            timerID = setTimeout("newtext()", 300)
-        };
-    </script>
+<body>
+    <h1>这是网页标题</h1>
+    <p>这里是网页正文内容，你可以在此处添加更多想要展示的文字信息，来介绍相关的主题等。</p>
 </body>
 
 </html>
